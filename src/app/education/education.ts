@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Education {
 
+  textopt= 'Educação';
+
+  textoen= 'Education';
 }

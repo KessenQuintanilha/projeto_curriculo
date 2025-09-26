@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/projeto_curriculo": {},
+    "/projeto_curriculo/about-me": {},
+    "/projeto_curriculo/certificates": {},
+    "/projeto_curriculo/education": {},
+    "/projeto_curriculo/experiences": {},
+    "/projeto_curriculo/projects": {},
+    "/projeto_curriculo/skills": {}
+  }
+}

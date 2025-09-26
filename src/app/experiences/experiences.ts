@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Experiences {
 
+  titulopt= 'Experiências Profissionais';
+
+  tituloen= 'Professional Experiences';
+
 }

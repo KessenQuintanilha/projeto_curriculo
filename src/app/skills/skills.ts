@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Skills {
 
+  titulopt='Competências Técnicas - Analíticas e Organizacionais'
+
+  tituloen='Technical Skills - Analytical & Organizational'
 }
