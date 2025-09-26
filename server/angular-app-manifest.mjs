@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://KessenQuintanilha.github.io/projeto_curriculo/',
+  baseHref: '/projeto_curriculo/',
   locale: undefined,
   routes: [
   {
@@ -41,15 +41,15 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 24670, hash: 'd7eea22df205e81e761d034e3cec2ccd89d9917fd49aee7094a6ac846a43a127', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 17123, hash: 'c964a7ae896612df0f5fe1e867c44f24887813085f1a86d41aadae9a13f376db', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 24635, hash: '90625d167eb809e00506c319644d88dac2c77dd285d90c6d0970623073c8749c', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 17088, hash: '509b7001b951adab6af33f77d3108b053aa0b444546a90ab632c9d128d1f6551', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'certificates/index.html': {size: 36764, hash: '8244acf6b749e4aa16bf8c5cc44e5497ba68c2182934bac546d3f55946db13ab', text: () => import('./assets-chunks/certificates_index_html.mjs').then(m => m.default)},
     'index.html': {size: 0, hash: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'projects/index.html': {size: 37840, hash: '5c8dc35c6078d331470572dd328e63e7fecc9be9c6430b99a53f2989ef157cdc', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
-    'skills/index.html': {size: 37125, hash: 'ffba40876f0a15b6a45c46ae8b7e21628c17bcd48d5c88c5b18454f0576dd861', text: () => import('./assets-chunks/skills_index_html.mjs').then(m => m.default)},
-    'certificates/index.html': {size: 37009, hash: '6477b7fe6d75a301591430890ed14b777fdc55ffb17fc95ae15662f7df96d829', text: () => import('./assets-chunks/certificates_index_html.mjs').then(m => m.default)},
-    'education/index.html': {size: 37361, hash: '885446407ec99267baf9e16a15a9ca53da39de8237130040c1632864dd118468', text: () => import('./assets-chunks/education_index_html.mjs').then(m => m.default)},
-    'experiences/index.html': {size: 39886, hash: 'cfcf4aa884a70c015af7c5d6cc9b0ce410443034b7f1072536564836c19932ab', text: () => import('./assets-chunks/experiences_index_html.mjs').then(m => m.default)},
-    'about-me/index.html': {size: 81527, hash: 'edec087bcfe7a20837b46de27a362fb28c397993bb175043b571165060e740a9', text: () => import('./assets-chunks/about-me_index_html.mjs').then(m => m.default)},
+    'experiences/index.html': {size: 39641, hash: '469ad1f8a68d97533a4ea809b8722be6db334215858f75c03caa4ca1afb1c829', text: () => import('./assets-chunks/experiences_index_html.mjs').then(m => m.default)},
+    'education/index.html': {size: 37116, hash: '22d694b61ccff9984490b19dca24e854128e154e5b362303e72d8027c04969cb', text: () => import('./assets-chunks/education_index_html.mjs').then(m => m.default)},
+    'skills/index.html': {size: 36880, hash: 'c65f2c955679acbd1a2ecf8a82ffc137347e1f93bd7b687f8b4eb88f956d8c05', text: () => import('./assets-chunks/skills_index_html.mjs').then(m => m.default)},
+    'about-me/index.html': {size: 81282, hash: 'b277de0dcd86783ae2e46dfd24c4128cecca5a2b61a7d98ad5da0625c9d40aac', text: () => import('./assets-chunks/about-me_index_html.mjs').then(m => m.default)},
+    'projects/index.html': {size: 37595, hash: '78844a5d7e54e55e94fc6f311ec45d981a8fc30634f0849f8fac8f3e39274b8a', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
     'styles-FFYBPRYA.css': {size: 8329, hash: '5evLMQF4I+o', text: () => import('./assets-chunks/styles-FFYBPRYA_css.mjs').then(m => m.default)}
   },
 };
